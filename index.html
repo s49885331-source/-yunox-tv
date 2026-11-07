@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YunoXTV | Gaming Universe</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ background:#070b14;color:white;
+ font-family:Arial,sans-serif;
+}
+header{
+ display:flex;justify-content:space-between;
+ align-items:center;padding:20px;
+ background:#0c1424;border-bottom:1px solid #17375a;
+ position:sticky;top:0;z-index:10;
+}
+.logo{font-size:24px;font-weight:900;color:#42caff}
+.logo span{color:white}
+nav a{color:#b8c9dc;text-decoration:none;margin-left:12px;font-size:13px}
+.hero{
+ min-height:480px;padding:75px 20px;
+ text-align:center;display:flex;
+ flex-direction:column;justify-content:center;
+ align-items:center;
+ background:radial-gradient(ellipse at 50% 30%,#123e70,#10102d 55%,#070b14);
+}
+.symbol{
+ width:105px;height:105px;border-radius:30px;
+ display:grid;place-items:center;
+ border:2px solid #42caff;
+ box-shadow:0 0 35px #168ed088;
+ font-size:55px;margin-bottom:25px;
+}
+.hero h1{font-size:43px;letter-spacing:2px}
+.hero h1 span{color:#42caff}
+.hero p{color:#b8c9dc;line-height:1.7;margin:18px 0 25px}
+.btn{
+ display:inline-block;padding:14px 23px;
+ background:#168ed0;color:white;
+ border-radius:9px;text-decoration:none;
+ font-weight:bold;transition:.2s;
+}
+.btn:hover{background:#42caff;transform:scale(1.04)}
+.btn.secondary{
+ background:transparent;border:1px solid #42caff;
+ margin-left:8px;
+}
+section{padding:45px 20px;max-width:1000px;margin:auto}
+.heading{font-size:26px;margin-bottom:22px}
+.heading span{color:#42caff}
+.stats{
+ display:grid;grid-template-columns:repeat(3,1fr);
+ gap:12px;margin-top:-5px;
+}
+.stat{
+ text-align:center;padding:20px 5px;
+ background:#101b2d;border:1px solid #1d3858;
+ border-radius:12px;
+}
+.stat strong{font-size:21px;color:#42caff}
+.stat p{font-size:12px;color:#aabbd0;margin-top:7px}
+.videos{
+ display:grid;grid-template-columns:repeat(2,1fr);gap:15px;
+}
+.video{
+ background:#111d30;border:1px solid #203b5d;
+ border-radius:13px;overflow:hidden;
+}
+.thumbnail{
+ height:125px;display:grid;place-items:center;
+ font-size:48px;
+ background:linear-gradient(135deg,#153e70,#26174c);
+}
+.video div:last-child{padding:15px}
+.video h3{font-size:16px;margin-bottom:8px}
+.video p{font-size:12px;color:#9eb3cf}
+.video a{display:inline-block;margin-top:12px;color:#42caff;text-decoration:none;font-size:13px}
+.about{
+ background:linear-gradient(120deg,#101c33,#11112d);
+ border:1px solid #1b3c60;border-radius:15px;
+ padding:28px;line-height:1.8;color:#c2d0e2;
+}
+.about h2{color:white;margin-bottom:12px}
+.about strong{color:#42caff}
+.social{text-align:center}
+.social p{color:#aabbd0;margin:12px 0 22px}
+footer{
+ text-align:center;padding:25px;
+ background:#0c1424;color:#8296b2;font-size:12px;
+ border-top:1px solid #1d3858;
+}
+@media(max-width:400px){
+ .hero h1{font-size:34px}
+ nav a{margin-left:5px;font-size:11px}
+ .logo{font-size:20px}
+ .thumbnail{height:105px}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">YUNO<span>X</span>TV</div>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#videos">Videos</a>
+  <a href="#about">About</a>
+ </nav>
+</header>
+
+<main>
+<div class="hero" id="home">
+ <div class="symbol">⚡</div>
+ <h1>WELCOME TO <span>YUNOXTV</span></h1>
+ <p>GAMING. ENTERTAINMENT. UNLIMITED FUN.<br>
+ Welcome to my gaming universe.</p>
+ <div>
+  <a class="btn" href="#videos">EXPLORE VIDEOS</a>
+  <a class="btn secondary"
+  href="https://www.youtube.com/results?search_query=YunoXTV"
+  target="_blank">YOUTUBE ↗</a>
+ </div>
+</div>
+
+<section>
+ <div class="stats">
+  <div class="stat"><strong>🎮</strong><p>GAMING</p></div>
+  <div class="stat"><strong>⚡</strong><p>ENTERTAINMENT</p></div>
+  <div class="stat"><strong>🔥</strong><p>GOOD VIBES</p></div>
+ </div>
+</section>
+
+<section id="videos">
+ <h2 class="heading">🔥 LATEST <span>VIDEOS</span></h2>
+ <div class="videos">
+
+  <div class="video">
+   <div class="thumbnail">🏴‍☠️</div>
+   <div>
+    <h3>Roblox Adventures</h3>
+    <p>Roblox gaming content</p>
+    <a href="https://www.youtube.com/results?search_query=YunoXTV+Roblox" target="_blank">WATCH VIDEOS ↗</a>
+   </div>
+  </div>
+
+  <div class="video">
+   <div class="thumbnail">⚔️</div>
+   <div>
+    <h3>Epic Gaming Moments</h3>
+    <p>Funny and exciting moments</p>
+    <a href="https://www.youtube.com/results?search_query=YunoXTV+gaming" target="_blank">WATCH VIDEOS ↗</a>
+   </div>
+  </div>
+
+  <div class="video">
+   <div class="thumbnail">⚡</div>
+   <div>
+    <h3>Shorts Zone</h3>
+    <p>Quick gaming entertainment</p>
+    <a href="https://www.youtube.com/results?search_query=YunoXTV+shorts" target="_blank">WATCH VIDEOS ↗</a>
+   </div>
+  </div>
+
+  <div class="video">
+   <div class="thumbnail">🏆</div>
+   <div>
+    <h3>Gaming Challenges</h3>
+    <p>Challenges and adventures</p>
+    <a href="https://www.youtube.com/results?search_query=YunoXTV+gaming+challenge" target="_blank">WATCH VIDEOS ↗</a>
+   </div>
+  </div>
+
+ </div>
+</section>
+
+<section id="about">
+ <div class="about">
+  <h2>👾 ABOUT YUNOXTV</h2>
+  <p>Welcome to <strong>YunoXTV</strong>!
+  This is my gaming universe where you can
+  explore gaming content, exciting moments,
+  challenges and entertainment.</p>
+  <p>Thanks for being part of the journey! 💙</p>
+ </div>
+</section>
+
+<section class="social">
+ <h2 class="heading">JOIN THE <span>COMMUNITY</span></h2>
+ <p>Watch the videos and be part of the adventure.</p>
+ <a class="btn"
+ href="https://www.youtube.com/results?search_query=YunoXTV"
+ target="_blank">VISIT YOUTUBE ↗</a>
+</section>
+</main>
+
+<footer>
+ © 2026 YunoXTV | MADE FOR GAMERS ⚡
+</footer>
+
+</body>
+</html>
